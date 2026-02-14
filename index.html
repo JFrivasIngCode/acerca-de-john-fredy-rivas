@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="utf-8" />
+   <meta name="author" content="Fredy Rivas" />
+   <meta name="description" content="Portafolio de desarrollo web de Fredy Rivas" />
+   <meta name="keywords" content="HTML, CSS, JavaScript, React" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>John Fredy Rivas | Desarrollo Web Front-End</title>
+   <link rel="shortcut icon" href="img/icons8-code-94.png" type="image/x-icon" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+   <link rel="stylesheet" href="css/styles.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet" />
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+               <img src="img/logo-JFrivas.svg" alt="Logo logo-JFrivas" />
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#proyectos">Proyectos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#testimonios">Testimonios</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+         <img class="hero-imagen-desarrollador rounded-circle" src="img/desarrollador-ejemplo.svg"
+            alt="Foto de  John Fredy Rivas" />
+         <h1>Hola, soy  John Fredy  Rivas</h1>
+         <h2>Ingeniero Electromecánico y Desarrollador Web</h2>
+      </div>
+      <div class="hero-inferior">
+         <img class="hero-inferior-imagen img-fluid" src="img/hero-inferior.svg"
+            alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+   </section>
+
+   <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+         <h2 class="seccion-titulo">Conoce a John Fredy Rivas</h2>
+         <p class="seccion-texto">
+            "Soy un Ingeniero Electromecánico con más de 10 años de trayectoria que hoy aplica todo ese
+            rigor técnico al desarrollo web. Como desarrollador Full Stack especializado en el ecosistema JavaScript (React,
+            Node.js y Express), mi propósito es combinar la precisión de la ingeniería con la agilidad digital para transformar
+            ideas complejas en soluciones sencillas, funcionales y atractivas que simplifiquen la vida del usuario."
+         </p>
+      </div>
+   </section>
+
+   <section class="experiencia seccion-clara">
+      <div class="container text-center">
+         <div class="row">
+            <div class="columna col-12 col-md-4">
+               <i class="bi bi-laptop"></i>
+               <p class="experiencia-titulo">Desarrollo Web</p>
+               <p>
+                  Diseño y construyo aplicaciones web interactivas utilizando las mejores prácticas
+                  del mercado para garantizar velocidad, accesibilidad y una gran experiencia de usuario.
+               </p>
+               <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">HTML</span>
+                  <span class="badge text-bg-primary">CSS</span>
+                  <span class="badge text-bg-primary">JavaScript</span>
+                  <span class="badge text-bg-primary">React</span>
+               </div>
+            </div>
+            <div class="columna col-12 col-md-4">
+               <i class="bi bi-journal-text"></i>
+               <p class="experiencia-titulo">Artículos</p>
+               <p>
+                  Escribo contenido técnico especializado sobre desarrollo web, Python y buenas prácticas,
+                  enfocado en facilitar el aprendizaje de nuevos programadores en la industria.
+               </p>
+               <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">Escribir</span>
+                  <span class="badge text-bg-primary">Editar</span>
+                  <span class="badge text-bg-primary">Blogs</span>
+               </div>
+            </div>
+            <div class="columna col-12 col-md-4">
+               <i class="bi bi-mortarboard"></i>
+               <p class="experiencia-titulo">Estudiante</p>
+               <p>
+                  Me mantengo en constante formación mediante plataformas como freeCodeCamp,
+                  explorando nuevas tecnologías como Python y Backend para ampliar mis capacidades.
+               </p>
+               <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">freeCodeCamp</span>
+                  <span class="badge text-bg-primary">Desarrollo Web</span>
+                  <span class="badge text-bg-primary">Python</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">
+         Estos son algunos de los trabajos más destacados que he desarrollado últimamente...
+      </h3>
+      <div class="container text-center proyectos-contenedor">
+         <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+               <div class="proyecto">
+                  <img src="img/proyecto1.png" alt="E-commerce en React" />
+                  <div class="overlay">
+                     <p>Crud Full Stack</p>
+                     <div class="iconos-contenedor">
+                        <a href="https://github.com/fredy80360/crud-full-stack" target="_blank" rel="noopener noreferrer">
+                           <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                           <i class="bi bi-laptop"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+               <div class="proyecto">
+                  <img src="img/proyecto2.png" alt="App de Clima" />
+                  <div class="overlay">
+                     <p>Página Web de Restaurante de Cocina Española</p>
+                     <div class="iconos-contenedor">
+                        <a href="https://github.com/fredy80360/pagina-web-restaurante-cocina-espanola" target="_blank" rel="noopener noreferrer">
+                           <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                           <i class="bi bi-laptop"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+               <div class="proyecto">
+                  <img src="img/proyecto3.png" alt="Dashboard de Analítica" />
+                  <div class="overlay">
+                     <p>Página Web de Restaurante Italiano Little Lemon</p>
+                     <div class="iconos-contenedor">
+                        <a href="https://github.com/fredy80360/pagina-web-restaurante-italiano-little-lemon" target="_blank" rel="noopener noreferrer">
+                           <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                           <i class="bi bi-laptop"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+               <div class="proyecto">
+                  <img src="img/proyecto4.png" alt="CRUD React Node" />
+                  <div class="overlay">
+                     <p>Página Web de Marketing Digital</p>
+                     <div class="iconos-contenedor">
+                        <a href="https://github.com/fredy80360/pagina-web-marketing-digital" target="_blank"
+                           rel="noopener noreferrer">
+                           <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                           <i class="bi bi-laptop"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+               <div class="proyecto">
+                  <img src="img/proyecto5.png" alt="Lista de Tareas" />
+                  <div class="overlay">
+                     <p>Página Web de Programa YA</p>
+                     <div class="iconos-contenedor">
+                        <a href="https://github.com/fredy80360/pagina-web-programa-ya" target="_blank" rel="noopener noreferrer">
+                           <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                           <i class="bi bi-laptop"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+               <div class="proyecto">
+                  <img src="img/proyecto6.png" alt="Portafolio Personal" />
+                  <div class="overlay">
+                     <p>Página Web Empresarial</p>
+                     <div class="iconos-contenedor">
+                        <a href="https://github.com/fredy80360/pagina-web-empresarial" target="_blank" rel="noopener noreferrer">
+                           <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                           <i class="bi bi-laptop"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+         <button type="button" class="btn btn-info">
+            Ver más proyectos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+         </button>
+      </a>
+   </section>
+
+   <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+         <div class="card-header">Más recientes</div>
+         <ul class="list-group list-group-flush">
+            <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+               <li class="list-group-item">
+                  El decorador @property en Python - cómo usarlo, ventajas y
+                  sintaxis
+               </li>
+            </a>
+            <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+               <li class="list-group-item">
+                  Python tutorial ciclos while - while True ejemplos de sintaxis y
+                  ciclos infinitos
+               </li>
+            </a>
+            <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+               <li class="list-group-item">
+                  Python leer archivo JSON - cómo cargar JSON desde un archivo y
+                  procesar dumps
+               </li>
+            </a>
+            <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+               <li class="list-group-item">
+                  Python cómo escribir en un archivo - abrir, leer, escribir y otras
+                  funciones de archivos explicadas
+               </li>
+            </a>
+            <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+               <li class="list-group-item">
+                  ¿Para qué se usa Python? 10+ usos del lenguaje de programación
+                  Python
+               </li>
+            </a>
+         </ul>
+      </div>
+      <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+         <button type="button" class="btn btn-info">
+            Ver más artículos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+         </button>
+      </a>
+   </section>
+
+   <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">
+         Estas son algunas palabras de clientes y colegas con los que he colaborado...
+      </h3>
+
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="container">
+                  <img class="testimonio-imagen rounded-circle" src="img/cliente1.svg" alt="Foto de Gino" />
+                  <p class="testimonio-texto">
+                     John Fredy entregó el proyecto a tiempo y con una calidad técnica excepcional.
+                     Su atención al detalle en la interfaz de usuario superó nuestras expectativas.
+                  </p>
+                  <div class="testimonio-info">
+                     <p class="cliente">Gino</p>
+                     <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <img class="testimonio-imagen rounded-circle" src="img/cliente2.svg" alt="Foto de Nora" />
+                  <p class="testimonio-texto">
+                     Excelente comunicación durante todo el desarrollo. John Fredy tiene la capacidad de
+                     explicar términos complejos de forma sencilla y eficiente.
+                  </p>
+                  <div class="testimonio-info">
+                     <p class="cliente">Nora</p>
+                     <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <img class="testimonio-imagen rounded-circle" src="img/cliente3.svg" alt="Foto de Leonardo" />
+                  <p class="testimonio-texto">
+                     Trabajar con John Fredy fue una gran experiencia. Sus artículos técnicos nos ayudaron
+                     a capacitar a nuestro equipo junior de forma acelerada.
+                  </p>
+                  <div class="testimonio-info">
+                     <p class="cliente">Leonardo</p>
+                     <p class="cargo">Director de AprendeAProgramar</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+         </button>
+      </div>
+   </section>
+
+   <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+         <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+               <div class="col-12 col-md-4 seccion-titulo">¡Hablemos!</div>
+               <div class="col-12 col-md-4 descripcion">
+                  Contáctame para iniciar tu proyecto de desarrollo web y haré que
+                  tu visión se vuelva realidad.
+               </div>
+               <div class="col-12 col-md-4">
+                  <a href="mailto:fredyrivas0714@gmail.com">
+                     <button type="button">
+                        Contacto
+                        <i class="bi bi-envelope-check-fill"></i>
+                     </button>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo " src="img/logo-JFrivas.svg"   alt="Logo logo-JFrivas" />
+      <p class="footer-texto text-center">
+         Aprendo y creo todos los días.<br />Creemos un proyecto juntos.
+      </p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+         <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-twitter"></i>
+         </a>
+         <a href="https://github.com/fredy80360" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+         </a>
+         <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+         </a>
+         <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+         </a>
+         <a href="mailto:fredyrivas0714@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope"></i>
+         </a>
+      </div>
+      <div class="derechos-de-autor">Creado por John Fredy Rivas (2026) &#169;</div>
+   </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
