@@ -57,15 +57,15 @@ pagina-web-Acerca-de JFrivas/
 
 ## 📈 Estadísticas de GitHub
 
-![Estadísticas de John](https://github-readme-stats.vercel.app/api?username=fredy80360&show_icons=true&theme=radical)
-![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=fredy80360&layout=compact&theme=radical)
+![Estadísticas de John](https://github-readme-stats.vercel.app/api?username=JFrivasIngCode&show_icons=true&theme=radical)
+![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=JFrivasIngCode&layout=compact&theme=radical)
 
 ---
 
 ## 📫 ¡Conectemos!
 
 - **LinkedIn:**(https://www.linkedin.com/in/jfrivas/)
-- **Portafolio:** (https://github.com/fredy80360)
+- **Portafolio:** (https://github.com/JFrivasIngCode)
 - **Email:** (mailto:fredyrivas0714@gmail.com)
 
 ---
